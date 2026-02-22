@@ -34,7 +34,7 @@
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
         <img src="img/MNN.png" alt="MNN" style="width: 50px;">
         </a><div style="width: 15px; height: 1px; display: inline-block;"></div>
-          <li><a href="/index.php" class="nav-link px-2 text-white">Басты бет</a></li>
+          <li><a href="/index.html" class="nav-link px-2 text-white">Басты бет</a></li>
           <li><a href="/basket.php" class="nav-link px-2 text-secondary">Себет</a></li>
           <li><a href="/calculator.php" class="nav-link px-2 text-white">Калория калькуляторы</a></li>
           <li><a href="/comments.php" class="nav-link px-2 text-white">Пікірлер</a></li>
@@ -287,3 +287,4 @@
 <?php require "blocks/footer.php" ?>
 </body>
 </html>
+
