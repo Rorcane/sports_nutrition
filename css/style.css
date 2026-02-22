@@ -1,0 +1,90 @@
+.card {
+   width: 50%;
+   margin-left: 1%;
+}
+
+#message-container {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #000;
+}
+.comment {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.comment p:first-child {
+  font-weight: bold;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 24px;
+}
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-icon {
+  margin: 0 10px;
+}
+container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f5f5f5;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+form div {
+	margin-bottom: 10px;
+}
+
+form label {
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+form input[type="number"], form select {
+	width: 100px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+form button {
+	padding: 10px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+form button:hover {
+	background-color: #3e8e41;
+}
+.container.no-scroll {
+  overflow: hidden;
+  max-height: 400px;
+}
